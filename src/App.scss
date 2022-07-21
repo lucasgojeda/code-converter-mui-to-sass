@@ -1,0 +1,22 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    input {
+        padding: 10px;
+        width: 50vw;
+    }
+
+    .textFinishedContainer {
+        // background-color: blue;
+        border: 1px solid grey;
+        width: 75vw;
+        min-height: 65vh;
+        color: #000;
+        overflow-y: scroll;
+    }
+}
